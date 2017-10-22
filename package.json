@@ -1,0 +1,42 @@
+{
+  "name": "typscript-course",
+  "version": "1.0.0",
+  "description": "API Desenvolvida Utilizando TS, NODE, ES6, Postgres e Sequelize",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemarques8/typscript-course.git"
+  },
+  "keywords": [
+    "API",
+    "TypesScript",
+    "Node",
+    "ES6"
+  ],
+  "author": "Felipe Marques da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemarques8/typscript-course/issues"
+  },
+  "homepage": "https://github.com/felipemarques8/typscript-course#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.3.0",
+    "sequelize-cli": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.5",
+    "@types/express": "^4.0.37",
+    "@types/morgan": "^1.7.33",
+    "@types/sequelize": "^4.0.77",
+    "sequelize": "^4.15.1",
+    "ts-node": "^3.3.0"
+  }
+}
